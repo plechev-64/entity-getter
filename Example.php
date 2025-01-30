@@ -1,7 +1,7 @@
 <?php
 
-use Gosweb\Core\App;
-use Gosweb\Core\EntityGetter\WpQuery\PostGetter;
+use Src\Core\App;
+use Src\Core\EntityGetter\WpQuery\PostGetter;
 
 $container = App::getInstance()
                 ->container();

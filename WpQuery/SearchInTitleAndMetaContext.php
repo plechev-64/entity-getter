@@ -1,6 +1,6 @@
 <?php
 
-namespace Gosweb\Core\EntityGetter\WpQuery;
+namespace Src\Core\EntityGetter\WpQuery;
 
 class SearchInTitleAndMetaContext
 {

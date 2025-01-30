@@ -1,12 +1,12 @@
 <?php
 
-namespace Gosweb\Core\EntityGetter\Doctrine;
+namespace Src\Core\EntityGetter\Doctrine;
 
 use Doctrine\ORM\EntityManagerInterface;
 use Doctrine\ORM\QueryBuilder;
-use Gosweb\Core\EntityGetter\EntityGetterInterface;
-use Gosweb\Core\EntityGetter\EntityGetterResult;
-use Gosweb\Core\Enum\SortOrder;
+use Src\Core\EntityGetter\EntityGetterInterface;
+use Src\Core\EntityGetter\EntityGetterResult;
+use Src\Core\Enum\SortOrder;
 
 abstract class DoctrineEntityGetter implements EntityGetterInterface
 {

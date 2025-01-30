@@ -1,6 +1,6 @@
 <?php
 
-namespace Gosweb\Core\EntityGetter;
+namespace Src\Core\EntityGetter;
 
 class EntityGetterResult
 {

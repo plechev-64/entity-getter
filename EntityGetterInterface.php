@@ -1,8 +1,8 @@
 <?php
 
-namespace Gosweb\Core\EntityGetter;
+namespace Src\Core\EntityGetter;
 
-use Gosweb\Core\Enum\SortOrder;
+use Src\Core\Enum\SortOrder;
 
 interface EntityGetterInterface
 {

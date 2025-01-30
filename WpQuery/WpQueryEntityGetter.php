@@ -1,10 +1,10 @@
 <?php
 
-namespace Gosweb\Core\EntityGetter\WpQuery;
+namespace Src\Core\EntityGetter\WpQuery;
 
-use Gosweb\Core\EntityGetter\EntityGetterInterface;
-use Gosweb\Core\EntityGetter\EntityGetterResult;
-use Gosweb\Core\Enum\SortOrder;
+use Src\Core\EntityGetter\EntityGetterInterface;
+use Src\Core\EntityGetter\EntityGetterResult;
+use Src\Core\Enum\SortOrder;
 use WP_Query;
 
 abstract class WpQueryEntityGetter implements EntityGetterInterface
